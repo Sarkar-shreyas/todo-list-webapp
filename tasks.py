@@ -3,7 +3,7 @@ import json
 from datetime import date
 from typing import List
 
-# ---------- Create Task Objects ---------- #
+# ---------- Create Task Model ---------- #
 class Task():
     _id_counter = 0
 

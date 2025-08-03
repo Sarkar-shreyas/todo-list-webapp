@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 {% block title %}Home Page{% endblock %}
 {% block content %}
-<h1>This is the home page.</h1>
+<h1>Welcome to the todo-list web application.</h1>
+<h2>This application is meant to allow easy task tracking and manipulation</h2>
+<p>At the top of the website, you will find the navigation bar to help you find what you need.</p>
+<p>At the bottom of the page, you will find a link to the README file for this project on github,
+    containing instructions about the usage of this application.</p>
+<p>To begin using the todo-list app, please sign in.</p>
+<form action = "/login", method="post">
+    <button type="submit">Login</button>
+</form>
+<footer>Click here for <a href="https://github.com/Sarkar-shreyas/todo-list-webapp/blob/main/README.md" target="_blank">Help</a></footer>
 {% endblock %}
